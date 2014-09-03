@@ -1,0 +1,8 @@
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\LoggableService.dll.config
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\LoggableService.dll
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\LoggableService.pdb
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\Logger.dll
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\Logger.pdb
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\obj\Release\LoggableService.csprojResolveAssemblyReference.cache
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\obj\Release\LoggableService.dll
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\obj\Release\LoggableService.pdb

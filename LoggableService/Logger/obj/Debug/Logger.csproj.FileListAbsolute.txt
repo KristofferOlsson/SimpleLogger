@@ -1,0 +1,5 @@
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\bin\Debug\Logger.dll
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\bin\Debug\Logger.pdb
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\obj\Debug\Logger.dll
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\obj\Debug\Logger.pdb

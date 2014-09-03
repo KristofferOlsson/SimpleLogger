@@ -1,0 +1,4 @@
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\Logger\bin\Release\Logger.dll
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\Logger\bin\Release\Logger.pdb
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\Logger\obj\Release\Logger.dll
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\Logger\obj\Release\Logger.pdb

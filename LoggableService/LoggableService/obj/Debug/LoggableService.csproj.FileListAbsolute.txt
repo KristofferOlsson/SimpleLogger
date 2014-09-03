@@ -1,0 +1,10 @@
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\obj\Debug\LoggableService.csprojResolveAssemblyReference.cache
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\bin\LoggableService.dll.config
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\bin\LoggableService.dll
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\bin\LoggableService.pdb
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\obj\Debug\LoggableService.dll
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\obj\Debug\LoggableService.pdb
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\bin\Logger.dll
+c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\bin\Logger.pdb
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\Newtonsoft.Json.dll
+C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\Newtonsoft.Json.xml
