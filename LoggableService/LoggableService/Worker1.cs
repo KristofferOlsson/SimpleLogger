@@ -11,7 +11,7 @@ namespace LoggableService
     public class Worker1 : IWorker
     {
         public string SomeValue = "test";
-        public void Work(IPMSLogger logger)
+        public void Work(PMSLogger logger)
         {
             var rnd = new Random();
             logger.Log("start");

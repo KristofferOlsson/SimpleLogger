@@ -9,7 +9,7 @@ namespace LoggableService
 
     public class Worker2 : IWorker
     {
-        public void Work(IPMSLogger logger)
+        public void Work(PMSLogger logger)
         {
             logger.Log("I have not been implemented yet.", LogLevel.Error);
         }

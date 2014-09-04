@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPMSLogger.cs" />
+    <Compile Include="LogItem.cs" />
     <Compile Include="PMSLogger.cs" />
     <Compile Include="LogTimer.cs" />
     <Compile Include="PMSLogPrinter.cs" />

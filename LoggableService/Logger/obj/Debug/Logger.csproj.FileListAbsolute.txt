@@ -3,3 +3,8 @@ c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger
 c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
 c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\obj\Debug\Logger.dll
 c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Logger\obj\Debug\Logger.pdb
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\Logger\bin\Debug\Logger.dll
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\Logger\bin\Debug\Logger.pdb
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\Logger\obj\Debug\Logger.dll
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\Logger\obj\Debug\Logger.pdb

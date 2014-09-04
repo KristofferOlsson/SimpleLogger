@@ -21,7 +21,7 @@ namespace LoggableService
             config = int.TryParse(command, out config) ? config: new Random().Next(5);
 
             string reference = new Random().Next(1000000000, int.MaxValue).ToString();
-            IPMSLogger logger = new PMSLogger(reference, logger_OnLog);
+            PMSLogger logger = new PMSLogger(reference, logger_OnLog);
             logger.Header.OrganisationId = config.ToString();
             logger.Header.BookingCode = command == "2" ? "ABCD12" : null;
 
@@ -57,9 +57,7 @@ namespace LoggableService
 
         private void logger_OnLog(LogItem logItem)
         {
-            string printed = PMSLogPrinter.PrintLogItem(logItem, obj => JsonConvert.SerializeObject(obj, new JsonSerializerSettings(){
-                Formatting = Formatting.Indented,
-            }));
+            string printed = PMSLogPrinter.PrintLogItem(logItem, obj => JsonConvert.SerializeObject(obj, Formatting.Indented));
         }
 
     }

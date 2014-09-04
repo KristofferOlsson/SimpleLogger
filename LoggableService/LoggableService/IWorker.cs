@@ -9,6 +9,6 @@ namespace LoggableService
 {
     interface IWorker
     {
-        void Work(IPMSLogger logger);
+        void Work(PMSLogger logger);
     }
 }

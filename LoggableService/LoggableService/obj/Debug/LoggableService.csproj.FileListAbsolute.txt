@@ -8,3 +8,13 @@ c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\Loggab
 c:\users\kristoffer\documents\visual studio 2013\Projects\LoggableService\LoggableService\bin\Logger.pdb
 C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\Newtonsoft.Json.dll
 C:\Users\Kristoffer\Documents\Visual Studio 2013\Projects\LoggableService\LoggableService\bin\Newtonsoft.Json.xml
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\LoggableService.dll.config
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\LoggableService.dll
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\LoggableService.pdb
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\Logger.dll
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\Newtonsoft.Json.dll
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\Logger.pdb
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\bin\Newtonsoft.Json.xml
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\obj\Debug\LoggableService.csprojResolveAssemblyReference.cache
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\obj\Debug\LoggableService.dll
+C:\Users\Kristoffer\Documents\GitHub\Logger\LoggableService\LoggableService\obj\Debug\LoggableService.pdb

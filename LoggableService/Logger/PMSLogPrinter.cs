@@ -9,7 +9,7 @@ namespace Loggers
 {
     public class PMSLogPrinter
     {
-        public static string PrintLogItem(LogItem logItem, Func<object, string> serializeObjectFunc)
+        public static string PrintLogItem(LogItem logItem, Func<object, string> serializeParametersFunc)
         {
             string logLevelLine = null;
             if (logItem.OriginalLogLevel != logItem.LogLevel)
@@ -29,15 +29,15 @@ namespace Loggers
             }
 
             string parametersLine = null;
-            if (logItem.Parameters != null && serializeObjectFunc != null)
+            if (logItem.Parameters != null && serializeParametersFunc != null)
             {
-                parametersLine = serializeObjectFunc(logItem.Parameters) + Environment.NewLine;// JsonConvert.SerializeObject(logItem.Parameters, Formatting.Indented);
+                parametersLine = serializeParametersFunc(logItem.Parameters) + Environment.NewLine;// JsonConvert.SerializeObject(logItem.Parameters, Formatting.Indented);
             }
 
             string knownSolutionLine = null;
-            if (logItem.KnownSolution != null && serializeObjectFunc != null)
+            if (logItem.KnownSolution != null && serializeParametersFunc != null)
             {
-                knownSolutionLine = "Suggested solution: " + serializeObjectFunc(logItem.KnownSolution) + Environment.NewLine; //JsonConvert.SerializeObject(logItem.KnownSolution, Formatting.Indented);
+                knownSolutionLine = "Suggested solution: " + serializeParametersFunc(logItem.KnownSolution) + Environment.NewLine; //JsonConvert.SerializeObject(logItem.KnownSolution, Formatting.Indented);
             }
 
             string messageLine = null;

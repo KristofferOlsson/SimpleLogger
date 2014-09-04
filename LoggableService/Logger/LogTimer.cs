@@ -11,7 +11,7 @@ namespace Loggers
     public class LogTimer : IDisposable
     {
         System.Diagnostics.Stopwatch _timer = new System.Diagnostics.Stopwatch();
-        IPMSLogger _logger;
+        PMSLogger _logger;
         string _timedProcess;
         LogLevel _logLevel = LogLevel.Info;
         object _parameters;
@@ -19,7 +19,7 @@ namespace Loggers
         int _lineNumber;
         bool _isStarted;
 
-        private LogTimer(IPMSLogger logger, string timedProcess, object parameters, LogLevel logLevel, int lineNumber, string filePath)
+        private LogTimer(PMSLogger logger, string timedProcess, object parameters, LogLevel logLevel, int lineNumber, string filePath)
         {
             _logger = logger;
             _timedProcess = timedProcess;
@@ -29,22 +29,22 @@ namespace Loggers
             _lineNumber = lineNumber;
         }
 
-        public static LogTimer StartNew(IPMSLogger logger, string timedProcess, LogLevel logLevel = LogLevel.Debug, [CallerLineNumber] int lineNumber = 0, [CallerFilePath] string filePath = null)
+        public static LogTimer StartNew(PMSLogger logger, string timedProcess, LogLevel logLevel = LogLevel.Debug, [CallerLineNumber] int lineNumber = 0, [CallerFilePath] string filePath = null)
         {
             return StartInstance(logger, timedProcess, null, logLevel, lineNumber, filePath);
         }
 
-        public static LogTimer StartNew(IPMSLogger logger, string timedProcess, object parameters, LogLevel logLevel = LogLevel.Debug, [CallerLineNumber] int lineNumber = 0, [CallerFilePath] string filePath = null)
+        public static LogTimer StartNew(PMSLogger logger, string timedProcess, object parameters, LogLevel logLevel = LogLevel.Debug, [CallerLineNumber] int lineNumber = 0, [CallerFilePath] string filePath = null)
         {
             return StartInstance(logger, timedProcess, parameters, logLevel, lineNumber, filePath);
         }
 
-        private static LogTimer StartInstance(IPMSLogger logger, string timedProcess, object parameters, LogLevel logLevel, int lineNumber, string filePath)
+        private static LogTimer StartInstance(PMSLogger logger, string timedProcess, object parameters, LogLevel logLevel, int lineNumber, string filePath)
         {
             var logTimer = new LogTimer(logger, timedProcess, parameters, logLevel, lineNumber, filePath);
             if (logger.IsInDebugMode || logLevel > LogLevel.Debug)
             {
-                logger.Log("[LogTimer - Starting] " + timedProcess, parameters, logLevel, lineNumber, filePath);
+                //logger.Log("[LogTimer - Starting] " + timedProcess, parameters, logLevel, lineNumber, filePath);
 
                 logTimer._timer.Start();
                 logTimer._isStarted = true;
